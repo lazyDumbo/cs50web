@@ -1,0 +1,32 @@
+$wide:600px;
+
+
+@media (max-width:600px){
+    .small{
+     background-color:#ff0000;
+    }
+	}
+
+.black{
+    @inherit .small
+	background-color: #000000 ;
+}
+.white{
+    @inherit .small
+	color: #fff
+}
+.center{
+	text-align: center;
+}
+#inline{
+	display: inline;
+	margin-top: 0;
+}
+button{
+	margin:auto;
+	width: wide;
+}
+.center2{
+	margin:auto;
+	width:wide;
+}
